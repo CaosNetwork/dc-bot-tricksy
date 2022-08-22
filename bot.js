@@ -7,4 +7,5 @@ client.once("ready",() => {
 	console.log("Ready!");
 })
 
+console.log("Token='" + TOKEN + "'");
 client.login(TOKEN);
