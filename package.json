@@ -27,6 +27,6 @@
     "mongodb": "^4.9.0"
   },
   "engines": {
-    "node": "14.x"
+    "node": "16.x"
   }
 }
