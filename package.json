@@ -5,6 +5,7 @@
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
+    "deploy": "node deploy.js",
     "test": "node test.js"
   },
   "repository": {
@@ -21,8 +22,9 @@
   "bugs": {
     "url": "https://github.com/CaosNetwork/dc-bot-tricksy/issues"
   },
-  "homepage": "https://github.com/CaosNetwork/dc-bot-tricksy#readme",
+  "homepage": "https://caosnetwork.ga",
   "dependencies": {
+    "@discordjs/rest": "^1.1.0",
     "discord.js": "^14.2.0",
     "mongodb": "^4.9.0"
   },
