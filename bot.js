@@ -1,1 +1,10 @@
-const token = process.env.TOKEN;
+const { Client, GatewayIntentBits } = require('discord.js');
+const { TOKEN } = process.env.TOKEN;
+
+const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+
+client.once("ready",() => {
+	console.log("Ready!");
+})
+
+client.login(TOKEN);
